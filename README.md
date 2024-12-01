@@ -142,7 +142,7 @@ var nextPrayerTime = prayerTimes.timeForPrayer(next);
 
 ### Sunnah Times
 
-The Adhan library can also calulate Sunnah times. Given an instance of `PrayerTimes`, you can get a `SunnahTimes` object with the times for Qiyam.
+The Adhan library can also calculate Sunnah times. Given an instance of `PrayerTimes`, you can get a `SunnahTimes` object with the times for Qiyam.
 
 ```js
 var sunnahTimes = new SunnahTimes(prayerTimes);
@@ -167,7 +167,7 @@ var qiblaDirection = Qibla(coordinates);
 
 Adhan is made publicly available to provide a well tested and well documented library for Islamic prayer times to all
 developers. We accept feature contributions provided that they are properly documented and include the appropriate
-unit tests. We are also looking for contributions in the form of unit tests of of prayer times for different
+unit tests. We are also looking for contributions in the form of unit tests of prayer times for different
 locations, we do ask that the source of the comparison values be properly documented.
 
 **Note:** Commit messages should follow the [commit message convention](./.github/COMMIT_CONVENTIONS.md) so that changelogs can be automatically generated. Commit messages will be automatically validated upon commit. **If you are not familiar with the commit message convention, you should use `npm run commit` instead of `git commit`**, which provides an interactive CLI for generating proper commit messages.
